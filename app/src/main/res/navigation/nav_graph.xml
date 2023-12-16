@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/productsListFragment">
+
+    <fragment
+        android:id="@+id/productsListFragment"
+        android:name="com.example.urbancart.home.list.ProductsListFragment"
+        android:label="All products"
+        tools:layout="@layout/fragment_products_list" />
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.urbancart.home.explore.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/exploreFragment2"
+        android:name="com.example.urbancart.home.explorev2.ExploreFragmentV2"
+        android:label="Explore (Compose)"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.urbancart.home.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.urbancart.home.cart.CartFragment"
+        android:label="Your cart"
+        tools:layout="@layout/fragment_cart" />
+
+</navigation>

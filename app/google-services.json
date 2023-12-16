@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "242107168797",
+    "project_id": "urbancart-54b38",
+    "storage_bucket": "urbancart-54b38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242107168797:android:ece99232ee9b0c1e622ef4",
+        "android_client_info": {
+          "package_name": "com.example.urbancart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWxGn0rdPzDiG5q64roDlJP2UrMClH8sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
